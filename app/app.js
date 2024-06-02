@@ -9,7 +9,7 @@ let markHeight2 = 1.88;
 let johnWeight2 = 85;
 let johnHeight2 = 1.76;
 
-// Question2: Calculating mark's BMI's
+//  Question2: Calculating mark's BMI's
 let marksBMI = markWeight1 / (markHeight1 ** 2);
 console.log(marksBMI);
 let marksBMI2 = markWeight2 / (markHeight2 ** 2);
@@ -19,3 +19,7 @@ let johnsBMI = johnWeight1 / (johnHeight1 ** 2);
 console.log(johnsBMI);
 let johnsBMI2 = johnWeight1 / (johnHeight1 ** 2);
 console.log(johnsBMI2);
+
+// Question 3: Boolean variable whether Marks BMI is higher than Johns
+let markHigherBMI = marksBMI > johnsBMI;
+console.log(markHigherBMI); 
