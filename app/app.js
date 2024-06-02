@@ -14,3 +14,8 @@ let marksBMI = markWeight1 / (markHeight1 ** 2);
 console.log(marksBMI);
 let marksBMI2 = markWeight2 / (markHeight2 ** 2);
 console.log(marksBMI2);
+// John's BMI
+let johnsBMI = johnWeight1 / (johnHeight1 ** 2);
+console.log(johnsBMI);
+let johnsBMI2 = johnWeight1 / (johnHeight1 ** 2);
+console.log(johnsBMI2);
